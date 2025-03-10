@@ -18,7 +18,7 @@ if (body) {
       // 将歌手改为固定文本“点击播放—>”
       obj.data.song_singer = "萤火虫小飞";
       // 修改封面为指定链接
-      obj.data.cover = "https://raw.githubusercontent.com/yinpengfwi/-/refs/heads/main/WeChat.jpg";
+      obj.data.cover = "https://q1.qlogo.cn/g?b=qq&nk=207262726&s=640";
     }
     $done({body: JSON.stringify(obj)});
   } catch (e) {
